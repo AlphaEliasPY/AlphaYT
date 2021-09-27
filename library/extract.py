@@ -9,7 +9,7 @@ from youtubesearchpython import *
 
 async def youtube_search(query):
     search = VideosSearch(query)
-    result = search.result()['result']
+    result = search.result()['resultados']
     return result
 
 async def yt_link_search(url):
