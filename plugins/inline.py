@@ -58,7 +58,7 @@ async def inline_search(bot, query: InlineQuery):
                     message_text=data['link']
                 ),
                 thumb_url=thumb[0]['url'],
-                description=Presets.DESCRIPTION.format(data['duracion'], count['text'])
+                description=Presets.DESCRIPTION.format(data['duration'], count['text'])
             )
         )
     if string:
