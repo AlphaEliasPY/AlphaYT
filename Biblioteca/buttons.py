@@ -17,11 +17,11 @@ start_btn = [
     ],
     [
         InlineKeyboardButton('Ayuda', callback_data='help_btn'),
-        InlineKeyboardButton('Soporte', url='t.me/RMProjects')
+        InlineKeyboardButton('Soporte', url='t.me/AndroidCave')
     ],
     [
         InlineKeyboardButton('Cerrar', callback_data='close_btn'),
-        InlineKeyboardButton('buscar en linea', switch_inline_query_current_chat='')
+        InlineKeyboardButton('Buscar en linea', switch_inline_query_current_chat='')
     ]
 ]
 
