@@ -16,12 +16,12 @@ start_btn = [
 
     ],
     [
-        InlineKeyboardButton('Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support', url='t.me/RMProjects')
+        InlineKeyboardButton('Ayuda', callback_data='help_btn'),
+        InlineKeyboardButton('Soporte', url='t.me/RMProjects')
     ],
     [
-        InlineKeyboardButton('Close', callback_data='close_btn'),
-        InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
+        InlineKeyboardButton('Cerrar', callback_data='close_btn'),
+        InlineKeyboardButton('bucscar en linea', switch_inline_query_current_chat='')
     ]
 ]
 
@@ -35,34 +35,34 @@ del_thumb = [
 
 join_channel = [
     [
-        InlineKeyboardButton('⚙ Join Updates', url='https://telegram.me/RMProjects'),
-        InlineKeyboardButton('Search Inline', switch_inline_query_current_chat='')
+        InlineKeyboardButton('⚙ Grupo Android', url='https://telegram.me/AndroidCave'),
+        InlineKeyboardButton('bucscar en linea', switch_inline_query_current_chat='')
     ]
 ]
 
 
 back_button = [
     [
-        InlineKeyboardButton('⬅️ Back', callback_data='back_btn')
+        InlineKeyboardButton('⬅️ Atras', callback_data='back_btn')
     ]
 ]
 
 close_button = [
     [
-        InlineKeyboardButton('❌ Close', callback_data='close_btn'),
+        InlineKeyboardButton('❌ Cerrar', callback_data='close_btn'),
         InlineKeyboardButton('Home', callback_data='home_btn')
     ]
 ]
 
 cancel_button = [
     [
-        InlineKeyboardButton('Cancel', callback_data='cancel_btn')
+        InlineKeyboardButton('Cancelar', callback_data='cancel_btn')
     ]
 ]
 
 prompt_thumb_btn = [
     [
-        InlineKeyboardButton('Yes', callback_data='set_thumb_btn'),
+        InlineKeyboardButton('SI', callback_data='set_thumb_btn'),
         InlineKeyboardButton('No', callback_data='close_btn')
     ]
 ]
