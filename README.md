@@ -55,3 +55,4 @@ python3 bot.py
 [Dan](https://github.com/delivrance) for his [Pyrogram Tg Framework](https://github.com/pyrogram/pyrogram)
 
 [Shrimadhav UK](https://github.com/SpEcHIDe) for his [AnyDLBot](https://github.com/SpEcHiDe/AnyDLBot)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AlphaEliasPY/AlphaYT&plugins=postgresql&envs=TOKEN_BOT%2CAPI_ID%2CAPI_HASH%2CAUTH_USERS%2CENV%2CSUDO_USERS)
