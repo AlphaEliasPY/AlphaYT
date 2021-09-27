@@ -53,7 +53,7 @@ async def inline_search(bot, query: InlineQuery):
         thumb = data['thumbnails']
         results.append(
             InlineQueryResultArticle(
-                title=data['titulo'][:35] + "..",
+                title=data['title'][:35] + "..",
                 input_message_content=InputTextMessageContent(
                     message_text=data['link']
                 ),
