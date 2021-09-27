@@ -21,7 +21,7 @@ start_btn = [
     ],
     [
         InlineKeyboardButton('Cerrar', callback_data='close_btn'),
-        InlineKeyboardButton('bucscar en linea', switch_inline_query_current_chat='')
+        InlineKeyboardButton('buscar en linea', switch_inline_query_current_chat='')
     ]
 ]
 
@@ -36,7 +36,7 @@ del_thumb = [
 join_channel = [
     [
         InlineKeyboardButton('⚙ Grupo Android', url='https://telegram.me/AndroidCave'),
-        InlineKeyboardButton('bucscar en linea', switch_inline_query_current_chat='')
+        InlineKeyboardButton('buscar en linea', switch_inline_query_current_chat='')
     ]
 ]
 
