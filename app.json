@@ -12,7 +12,7 @@
         "AUTH_USERS": {"description": "List of Authorized user ids separated by space", "required":  false},
         "SUDO_USERS": {"description": "List of super user ids for broadcast. separated by space", "required":  true},
         "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
-        "DATABASE_URL" : {"Estoy mamadisimo": "xd","value": "mongodb+srv://alpha:alpha@cluster0.v7mjh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "DATABASE_URL": {"Estoy mamadisimo": "xd","value": "mongodb+srv://alpha:alpha@cluster0.v7mjh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"}
  },
   "addons": [
     {
